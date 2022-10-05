@@ -1,0 +1,543 @@
+* Header Comment
+
+.TEMP 25
+.OPTION
+.PARAM
+.GLOBAL gnd!
+
+.param pvcc=5
+.param period=10n
+.param tr=25p
+.param tf=25p
+
+Vgg gnd! 0 DC = 0
+Vv0 V0 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv1 V1 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv2 V2 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv3 V3 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv4 V4 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv5 V5 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv6 V6 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv7 V7 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv8 V8 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv9 V9 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv10 V10 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv11 V11 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv12 V12 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv13 V13 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv14 V14 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv15 V15 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv16 V16 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv17 V17 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv18 V18 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv19 V19 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv20 V20 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv21 V21 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv22 V22 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv23 V23 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv24 V24 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv25 V25 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv26 V26 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv27 V27 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv28 V28 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv29 V29 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv30 V30 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv31 V31 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv32 V32 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv33 V33 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv34 V34 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv35 V35 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv36 V36 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv37 V37 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv38 V38 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv39 V39 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv40 V40 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv41 V41 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv42 V42 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv43 V43 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv44 V44 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv45 V45 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv46 V46 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv47 V47 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv48 V48 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv49 V49 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv50 V50 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv51 V51 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv52 V52 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv53 V53 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv54 V54 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv55 V55 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv56 V56 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv57 V57 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv58 V58 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv59 V59 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv60 V60 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv61 V61 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv62 V62 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv63 V63 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv64 V64 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv65 V65 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv66 V66 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv67 V67 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv68 V68 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv69 V69 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv70 V70 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv71 V71 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv72 V72 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv73 V73 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv74 V74 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv75 V75 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv76 V76 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv77 V77 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv78 V78 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv79 V79 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv80 V80 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv81 V81 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv82 V82 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv83 V83 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv84 V84 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv85 V85 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv86 V86 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv87 V87 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv88 V88 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv89 V89 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv90 V90 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv91 V91 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv92 V92 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv93 V93 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv94 V94 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv95 V95 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv96 V96 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv97 V97 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv98 V98 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv99 V99 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv100 V100 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv101 V101 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv102 V102 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv103 V103 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv104 V104 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv105 V105 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv106 V106 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv107 V107 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv108 V108 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv109 V109 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv110 V110 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv111 V111 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv112 V112 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv113 V113 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv114 V114 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv115 V115 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv116 V116 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv117 V117 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv118 V118 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv119 V119 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv120 V120 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv121 V121 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv122 V122 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv123 V123 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv124 V124 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv125 V125 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv126 V126 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv127 V127 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv128 V128 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv129 V129 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv130 V130 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv131 V131 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv132 V132 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv133 V133 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv134 V134 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv135 V135 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv136 V136 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv137 V137 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv138 V138 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv139 V139 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv140 V140 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv141 V141 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv142 V142 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv143 V143 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv144 V144 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv145 V145 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv146 V146 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv147 V147 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv148 V148 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv149 V149 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv150 V150 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv151 V151 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv152 V152 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv153 V153 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv154 V154 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv155 V155 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv156 V156 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv157 V157 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv158 V158 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv159 V159 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv160 V160 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv161 V161 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv162 V162 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv163 V163 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv164 V164 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv165 V165 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv166 V166 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv167 V167 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv168 V168 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv169 V169 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv170 V170 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv171 V171 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv172 V172 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv173 V173 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv174 V174 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv175 V175 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv176 V176 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv177 V177 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv178 V178 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv179 V179 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv180 V180 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv181 V181 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv182 V182 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv183 V183 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv184 V184 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv185 V185 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv186 V186 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv187 V187 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv188 V188 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv189 V189 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv190 V190 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv191 V191 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv192 V192 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv193 V193 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv194 V194 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv195 V195 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv196 V196 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv197 V197 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv198 V198 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv199 V199 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv200 V200 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv201 V201 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv202 V202 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv203 V203 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv204 V204 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv205 V205 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv206 V206 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv207 V207 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv208 V208 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv209 V209 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv210 V210 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv211 V211 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv212 V212 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv213 V213 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv214 V214 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv215 V215 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv216 V216 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv217 V217 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv218 V218 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv219 V219 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv220 V220 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv221 V221 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv222 V222 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv223 V223 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv224 V224 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv225 V225 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv226 V226 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv227 V227 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv228 V228 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv229 V229 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv230 V230 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv231 V231 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv232 V232 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv233 V233 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv234 V234 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv235 V235 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv236 V236 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv237 V237 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv238 V238 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv239 V239 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+Vv240 V240 gnd! PULSE (0 pvcc 0 tr tf 7.500000e-11 period)
+Vv241 V241 gnd! PULSE (0 pvcc 0 tr tf 1.750000e-10 period)
+Vv242 V242 gnd! PULSE (0 pvcc 0 tr tf 2.750000e-10 period)
+Vv243 V243 gnd! PULSE (0 pvcc 0 tr tf 3.750000e-10 period)
+Vv244 V244 gnd! PULSE (0 pvcc 0 tr tf 4.750000e-10 period)
+Vv245 V245 gnd! PULSE (0 pvcc 0 tr tf 5.750000e-10 period)
+Vv246 V246 gnd! PULSE (0 pvcc 0 tr tf 6.750000e-10 period)
+Vv247 V247 gnd! PULSE (0 pvcc 0 tr tf 7.750000e-10 period)
+Vv248 V248 gnd! PULSE (0 pvcc 0 tr tf 8.750000e-10 period)
+Vv249 V249 gnd! PULSE (0 pvcc 0 tr tf 9.750000e-10 period)
+Vv250 V250 gnd! PULSE (0 pvcc 0 tr tf 1.075000e-09 period)
+Vv251 V251 gnd! PULSE (0 pvcc 0 tr tf 1.175000e-09 period)
+Vv252 V252 gnd! PULSE (0 pvcc 0 tr tf 1.275000e-09 period)
+Vv253 V253 gnd! PULSE (0 pvcc 0 tr tf 1.375000e-09 period)
+Vv254 V254 gnd! PULSE (0 pvcc 0 tr tf 1.475000e-09 period)
+Vv255 V255 gnd! PULSE (0 pvcc 0 tr tf 1.575000e-09 period)
+
+
+RR0 V0 Vout 1.000000e+05 $[RP]
+RR1 V1 Vout 5.000000e+04 $[RP]
+RR2 V2 Vout 3.333333e+04 $[RP]
+RR3 V3 Vout 2.500000e+04 $[RP]
+RR4 V4 Vout 2.000000e+04 $[RP]
+RR5 V5 Vout 1.666667e+04 $[RP]
+RR6 V6 Vout 1.428571e+04 $[RP]
+RR7 V7 Vout 1.250000e+04 $[RP]
+RR8 V8 Vout 1.111111e+04 $[RP]
+RR9 V9 Vout 1.000000e+04 $[RP]
+RR10 V10 Vout 9.090910e+03 $[RP]
+RR11 V11 Vout 8.333330e+03 $[RP]
+RR12 V12 Vout 7.692310e+03 $[RP]
+RR13 V13 Vout 7.142860e+03 $[RP]
+RR14 V14 Vout 6.666670e+03 $[RP]
+RR15 V15 Vout 6.250000e+03 $[RP]
+RR16 V16 Vout 5.882350e+03 $[RP]
+RR17 V17 Vout 5.555560e+03 $[RP]
+RR18 V18 Vout 5.263160e+03 $[RP]
+RR19 V19 Vout 5.000000e+03 $[RP]
+RR20 V20 Vout 4.761900e+03 $[RP]
+RR21 V21 Vout 4.545450e+03 $[RP]
+RR22 V22 Vout 4.347830e+03 $[RP]
+RR23 V23 Vout 4.166670e+03 $[RP]
+RR24 V24 Vout 4.000000e+03 $[RP]
+RR25 V25 Vout 3.846150e+03 $[RP]
+RR26 V26 Vout 3.703700e+03 $[RP]
+RR27 V27 Vout 3.571430e+03 $[RP]
+RR28 V28 Vout 3.448280e+03 $[RP]
+RR29 V29 Vout 3.333330e+03 $[RP]
+RR30 V30 Vout 3.225810e+03 $[RP]
+RR31 V31 Vout 3.125000e+03 $[RP]
+RR32 V32 Vout 3.030300e+03 $[RP]
+RR33 V33 Vout 2.941180e+03 $[RP]
+RR34 V34 Vout 2.857140e+03 $[RP]
+RR35 V35 Vout 2.777780e+03 $[RP]
+RR36 V36 Vout 2.702700e+03 $[RP]
+RR37 V37 Vout 2.631580e+03 $[RP]
+RR38 V38 Vout 2.564100e+03 $[RP]
+RR39 V39 Vout 2.500000e+03 $[RP]
+RR40 V40 Vout 2.439020e+03 $[RP]
+RR41 V41 Vout 2.380950e+03 $[RP]
+RR42 V42 Vout 2.325580e+03 $[RP]
+RR43 V43 Vout 2.272730e+03 $[RP]
+RR44 V44 Vout 2.222220e+03 $[RP]
+RR45 V45 Vout 2.173910e+03 $[RP]
+RR46 V46 Vout 2.127660e+03 $[RP]
+RR47 V47 Vout 2.083330e+03 $[RP]
+RR48 V48 Vout 2.040820e+03 $[RP]
+RR49 V49 Vout 2.000000e+03 $[RP]
+RR50 V50 Vout 1.960780e+03 $[RP]
+RR51 V51 Vout 1.923080e+03 $[RP]
+RR52 V52 Vout 1.886790e+03 $[RP]
+RR53 V53 Vout 1.851850e+03 $[RP]
+RR54 V54 Vout 1.818180e+03 $[RP]
+RR55 V55 Vout 1.785710e+03 $[RP]
+RR56 V56 Vout 1.754390e+03 $[RP]
+RR57 V57 Vout 1.724140e+03 $[RP]
+RR58 V58 Vout 1.694920e+03 $[RP]
+RR59 V59 Vout 1.666670e+03 $[RP]
+RR60 V60 Vout 1.639340e+03 $[RP]
+RR61 V61 Vout 1.612900e+03 $[RP]
+RR62 V62 Vout 1.587300e+03 $[RP]
+RR63 V63 Vout 1.562500e+03 $[RP]
+RR64 V64 Vout 1.538460e+03 $[RP]
+RR65 V65 Vout 1.515150e+03 $[RP]
+RR66 V66 Vout 1.492540e+03 $[RP]
+RR67 V67 Vout 1.470590e+03 $[RP]
+RR68 V68 Vout 1.449280e+03 $[RP]
+RR69 V69 Vout 1.428570e+03 $[RP]
+RR70 V70 Vout 1.408450e+03 $[RP]
+RR71 V71 Vout 1.388890e+03 $[RP]
+RR72 V72 Vout 1.369860e+03 $[RP]
+RR73 V73 Vout 1.351350e+03 $[RP]
+RR74 V74 Vout 1.333330e+03 $[RP]
+RR75 V75 Vout 1.315790e+03 $[RP]
+RR76 V76 Vout 1.298700e+03 $[RP]
+RR77 V77 Vout 1.282050e+03 $[RP]
+RR78 V78 Vout 1.265820e+03 $[RP]
+RR79 V79 Vout 1.250000e+03 $[RP]
+RR80 V80 Vout 1.234570e+03 $[RP]
+RR81 V81 Vout 1.219510e+03 $[RP]
+RR82 V82 Vout 1.204820e+03 $[RP]
+RR83 V83 Vout 1.190480e+03 $[RP]
+RR84 V84 Vout 1.176470e+03 $[RP]
+RR85 V85 Vout 1.162790e+03 $[RP]
+RR86 V86 Vout 1.149430e+03 $[RP]
+RR87 V87 Vout 1.136360e+03 $[RP]
+RR88 V88 Vout 1.123600e+03 $[RP]
+RR89 V89 Vout 1.111110e+03 $[RP]
+RR90 V90 Vout 1.098900e+03 $[RP]
+RR91 V91 Vout 1.086960e+03 $[RP]
+RR92 V92 Vout 1.075270e+03 $[RP]
+RR93 V93 Vout 1.063830e+03 $[RP]
+RR94 V94 Vout 1.052630e+03 $[RP]
+RR95 V95 Vout 1.041670e+03 $[RP]
+RR96 V96 Vout 1.030930e+03 $[RP]
+RR97 V97 Vout 1.020410e+03 $[RP]
+RR98 V98 Vout 1.010100e+03 $[RP]
+RR99 V99 Vout 1.000000e+03 $[RP]
+RR100 V100 Vout 9.901000e+02 $[RP]
+RR101 V101 Vout 9.803900e+02 $[RP]
+RR102 V102 Vout 9.708700e+02 $[RP]
+RR103 V103 Vout 9.615400e+02 $[RP]
+RR104 V104 Vout 9.523800e+02 $[RP]
+RR105 V105 Vout 9.434000e+02 $[RP]
+RR106 V106 Vout 9.345800e+02 $[RP]
+RR107 V107 Vout 9.259300e+02 $[RP]
+RR108 V108 Vout 9.174300e+02 $[RP]
+RR109 V109 Vout 9.090900e+02 $[RP]
+RR110 V110 Vout 9.009000e+02 $[RP]
+RR111 V111 Vout 8.928600e+02 $[RP]
+RR112 V112 Vout 8.849600e+02 $[RP]
+RR113 V113 Vout 8.771900e+02 $[RP]
+RR114 V114 Vout 8.695700e+02 $[RP]
+RR115 V115 Vout 8.620700e+02 $[RP]
+RR116 V116 Vout 8.547000e+02 $[RP]
+RR117 V117 Vout 8.474600e+02 $[RP]
+RR118 V118 Vout 8.403400e+02 $[RP]
+RR119 V119 Vout 8.333300e+02 $[RP]
+RR120 V120 Vout 8.264500e+02 $[RP]
+RR121 V121 Vout 8.196700e+02 $[RP]
+RR122 V122 Vout 8.130100e+02 $[RP]
+RR123 V123 Vout 8.064500e+02 $[RP]
+RR124 V124 Vout 8.000000e+02 $[RP]
+RR125 V125 Vout 7.936500e+02 $[RP]
+RR126 V126 Vout 7.874000e+02 $[RP]
+RR127 V127 Vout 7.812500e+02 $[RP]
+RR128 V128 Vout 7.751900e+02 $[RP]
+RR129 V129 Vout 7.692300e+02 $[RP]
+RR130 V130 Vout 7.633600e+02 $[RP]
+RR131 V131 Vout 7.575800e+02 $[RP]
+RR132 V132 Vout 7.518800e+02 $[RP]
+RR133 V133 Vout 7.462700e+02 $[RP]
+RR134 V134 Vout 7.407400e+02 $[RP]
+RR135 V135 Vout 7.352900e+02 $[RP]
+RR136 V136 Vout 7.299300e+02 $[RP]
+RR137 V137 Vout 7.246400e+02 $[RP]
+RR138 V138 Vout 7.194200e+02 $[RP]
+RR139 V139 Vout 7.142900e+02 $[RP]
+RR140 V140 Vout 7.092200e+02 $[RP]
+RR141 V141 Vout 7.042300e+02 $[RP]
+RR142 V142 Vout 6.993000e+02 $[RP]
+RR143 V143 Vout 6.944400e+02 $[RP]
+RR144 V144 Vout 6.896600e+02 $[RP]
+RR145 V145 Vout 6.849300e+02 $[RP]
+RR146 V146 Vout 6.802700e+02 $[RP]
+RR147 V147 Vout 6.756800e+02 $[RP]
+RR148 V148 Vout 6.711400e+02 $[RP]
+RR149 V149 Vout 6.666700e+02 $[RP]
+RR150 V150 Vout 6.622500e+02 $[RP]
+RR151 V151 Vout 6.578900e+02 $[RP]
+RR152 V152 Vout 6.535900e+02 $[RP]
+RR153 V153 Vout 6.493500e+02 $[RP]
+RR154 V154 Vout 6.451600e+02 $[RP]
+RR155 V155 Vout 6.410300e+02 $[RP]
+RR156 V156 Vout 6.369400e+02 $[RP]
+RR157 V157 Vout 6.329100e+02 $[RP]
+RR158 V158 Vout 6.289300e+02 $[RP]
+RR159 V159 Vout 6.250000e+02 $[RP]
+RR160 V160 Vout 6.211200e+02 $[RP]
+RR161 V161 Vout 6.172800e+02 $[RP]
+RR162 V162 Vout 6.135000e+02 $[RP]
+RR163 V163 Vout 6.097600e+02 $[RP]
+RR164 V164 Vout 6.060600e+02 $[RP]
+RR165 V165 Vout 6.024100e+02 $[RP]
+RR166 V166 Vout 5.988000e+02 $[RP]
+RR167 V167 Vout 5.952400e+02 $[RP]
+RR168 V168 Vout 5.917200e+02 $[RP]
+RR169 V169 Vout 5.882400e+02 $[RP]
+RR170 V170 Vout 5.848000e+02 $[RP]
+RR171 V171 Vout 5.814000e+02 $[RP]
+RR172 V172 Vout 5.780300e+02 $[RP]
+RR173 V173 Vout 5.747100e+02 $[RP]
+RR174 V174 Vout 5.714300e+02 $[RP]
+RR175 V175 Vout 5.681800e+02 $[RP]
+RR176 V176 Vout 5.649700e+02 $[RP]
+RR177 V177 Vout 5.618000e+02 $[RP]
+RR178 V178 Vout 5.586600e+02 $[RP]
+RR179 V179 Vout 5.555600e+02 $[RP]
+RR180 V180 Vout 5.524900e+02 $[RP]
+RR181 V181 Vout 5.494500e+02 $[RP]
+RR182 V182 Vout 5.464500e+02 $[RP]
+RR183 V183 Vout 5.434800e+02 $[RP]
+RR184 V184 Vout 5.405400e+02 $[RP]
+RR185 V185 Vout 5.376300e+02 $[RP]
+RR186 V186 Vout 5.347600e+02 $[RP]
+RR187 V187 Vout 5.319100e+02 $[RP]
+RR188 V188 Vout 5.291000e+02 $[RP]
+RR189 V189 Vout 5.263200e+02 $[RP]
+RR190 V190 Vout 5.235600e+02 $[RP]
+RR191 V191 Vout 5.208300e+02 $[RP]
+RR192 V192 Vout 5.181300e+02 $[RP]
+RR193 V193 Vout 5.154600e+02 $[RP]
+RR194 V194 Vout 5.128200e+02 $[RP]
+RR195 V195 Vout 5.102000e+02 $[RP]
+RR196 V196 Vout 5.076100e+02 $[RP]
+RR197 V197 Vout 5.050500e+02 $[RP]
+RR198 V198 Vout 5.025100e+02 $[RP]
+RR199 V199 Vout 5.000000e+02 $[RP]
+RR200 V200 Vout 4.975100e+02 $[RP]
+RR201 V201 Vout 4.950500e+02 $[RP]
+RR202 V202 Vout 4.926100e+02 $[RP]
+RR203 V203 Vout 4.902000e+02 $[RP]
+RR204 V204 Vout 4.878000e+02 $[RP]
+RR205 V205 Vout 4.854400e+02 $[RP]
+RR206 V206 Vout 4.830900e+02 $[RP]
+RR207 V207 Vout 4.807700e+02 $[RP]
+RR208 V208 Vout 4.784700e+02 $[RP]
+RR209 V209 Vout 4.761900e+02 $[RP]
+RR210 V210 Vout 4.739300e+02 $[RP]
+RR211 V211 Vout 4.717000e+02 $[RP]
+RR212 V212 Vout 4.694800e+02 $[RP]
+RR213 V213 Vout 4.672900e+02 $[RP]
+RR214 V214 Vout 4.651200e+02 $[RP]
+RR215 V215 Vout 4.629600e+02 $[RP]
+RR216 V216 Vout 4.608300e+02 $[RP]
+RR217 V217 Vout 4.587200e+02 $[RP]
+RR218 V218 Vout 4.566200e+02 $[RP]
+RR219 V219 Vout 4.545500e+02 $[RP]
+RR220 V220 Vout 4.524900e+02 $[RP]
+RR221 V221 Vout 4.504500e+02 $[RP]
+RR222 V222 Vout 4.484300e+02 $[RP]
+RR223 V223 Vout 4.464300e+02 $[RP]
+RR224 V224 Vout 4.444400e+02 $[RP]
+RR225 V225 Vout 4.424800e+02 $[RP]
+RR226 V226 Vout 4.405300e+02 $[RP]
+RR227 V227 Vout 4.386000e+02 $[RP]
+RR228 V228 Vout 4.366800e+02 $[RP]
+RR229 V229 Vout 4.347800e+02 $[RP]
+RR230 V230 Vout 4.329000e+02 $[RP]
+RR231 V231 Vout 4.310300e+02 $[RP]
+RR232 V232 Vout 4.291800e+02 $[RP]
+RR233 V233 Vout 4.273500e+02 $[RP]
+RR234 V234 Vout 4.255300e+02 $[RP]
+RR235 V235 Vout 4.237300e+02 $[RP]
+RR236 V236 Vout 4.219400e+02 $[RP]
+RR237 V237 Vout 4.201700e+02 $[RP]
+RR238 V238 Vout 4.184100e+02 $[RP]
+RR239 V239 Vout 4.166700e+02 $[RP]
+RR240 V240 Vout 4.149400e+02 $[RP]
+RR241 V241 Vout 4.132200e+02 $[RP]
+RR242 V242 Vout 4.115200e+02 $[RP]
+RR243 V243 Vout 4.098400e+02 $[RP]
+RR244 V244 Vout 4.081600e+02 $[RP]
+RR245 V245 Vout 4.065000e+02 $[RP]
+RR246 V246 Vout 4.048600e+02 $[RP]
+RR247 V247 Vout 4.032300e+02 $[RP]
+RR248 V248 Vout 4.016100e+02 $[RP]
+RR249 V249 Vout 4.000000e+02 $[RP]
+RR250 V250 Vout 3.984100e+02 $[RP]
+RR251 V251 Vout 3.968300e+02 $[RP]
+RR252 V252 Vout 3.952600e+02 $[RP]
+RR253 V253 Vout 3.937000e+02 $[RP]
+RR254 V254 Vout 3.921600e+02 $[RP]
+RR255 V255 Vout 3.906200e+02 $[RP]
+
+RRLoad Vout gnd! 0 $[RP]
+
+.tran 1p 100n Start = 0.0
+
+.OP
+.probe tran i(*)
+.probe tran v(*)
+
+.measure tran iout avg i(RRLoad)
+.measure dotProduct PARAM = '2000000*Iout'
+
+.OPTION ACCURATE
+.OPTION POST
+
+.END
